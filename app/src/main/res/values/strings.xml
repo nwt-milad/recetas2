@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">¿Recuerdas la recetas?</string>
+
+    <string name="btn_nueva_receta">Crear nueva receta</string>
+    <string name="edit_receta">Nombre de la receta</string>
+    <string name="edit_ingredientes">Ingredientes</string>
+    <string name="edit_elaboracion">Elaboracion</string>
+    <string name="btn_guardar">Guardar receta</string>
+    <string name="btn_regresar">Volver</string>
+
+    <string name="nombre_receta">Nueva Receta</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_borrar">Borrar</string>
+</resources>

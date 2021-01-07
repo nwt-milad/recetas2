@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2px"
+    android:orientation="vertical"
+    android:background="#95cef0">
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:text="1"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:id="@+id/edit_receta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_id"
+        android:text="nombre_receta"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_ingredientes"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_receta"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_toStartOf="@+id/imageView"
+        android:text="edit_ingredientes"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edit_elaboracion"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_ingredientes"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_toStartOf="@+id/imageView"
+        android:text="edit_elaboracion" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/edit_elaboracion"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_actualizar" />
+    <Button
+        android:id="@+id/btn_borrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_borrar" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/fish_meal"
+         />
+
+</RelativeLayout>
